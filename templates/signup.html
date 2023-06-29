@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Sign Up</title>
+    <style>
+        h1{
+            color:  yellow;
+        }
+        h3{
+            color : orangered ;
+        }
+
+        body{
+            background: url(https://wallpapercave.com/wp/wp1988090.jpg);
+        }
+        #nav{
+            background: rgba(20,15,25,0.5);
+            border-color: black;
+            border-width: thick;
+            border-style: double;
+
+        }
+        .demo{
+            background: gray;
+        }
+
+        p{
+            color : black;
+        }
+    </style> 
+    <link rel="stylesheet" href="signup.css">  
+</head>
+<body>
+    <div id="nav">
+        <h1>Course Sign Up Page</h1>
+        <h3>Note :  ** All Text Feilds are Mandatory **</h3>
+
+        <p>
+
+        </p>
+         
+    </div>
+  
+
+
+    <form action="/thankyou" method="get">
+
+        <p><label for ="fn">First Name : </label> <input id ="fm" type="text"name="" placeholder="First Name" required></p>
+        <p><label for ="ln">Last Name : </label><input id ="ln" type="text" placeholder="Last Name" required></p>
+        <p><label for="em">Email id : </label><input id="em" type="email" placeholder="Enter Your Email" required></p>
+        <p><label for ="pa"> Password : </label><input id="pa" type="password" placeholder="Enter Your Password" required></p>
+
+        
+        <p>   </p>
+        <p>   </p>
+
+        <h3>Are You above 18 ? </h3>
+        <label for ="y">Yes</label>
+        <input id ="y" type="radio" name="over" value="yes">
+        <label for ="n">No</label>
+
+        <input id ="n" type="radio" name="over" value="no">
+
+
+        <h3> Do you have Credit Card or Paypal ? </h3>
+
+        <select name="payment">
+            <option value="cc">Credit Card</option>
+            <option value="pp">Paypal</option>
+        </select>
+
+        <p></p>
+        <p></p>
+        
+
+        <input type="submit" name="" value="Sign Up!">
+        
+
+    </form>
+    
+</body>
+</html>

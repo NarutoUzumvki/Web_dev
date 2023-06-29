@@ -1,0 +1,56 @@
+body{
+     background: url("https://wallpapers.com/images/featured-full/akatsuki-cloud-aiagxkxssli3r0ny.jpg");
+}
+.fe{
+
+    color:red;
+    background: black;
+    border: 15px double chartreuse;
+    padding: 20px;
+
+
+}
+
+.ind{
+
+    color: blue;
+    background: rgb(29, 156, 127);
+    border: 8px solid rgb(136, 39, 189);
+    padding: 10px;
+
+
+}
+
+ 
+
+.how{
+
+    color: orange;
+    background: black;
+    border: 5px solid orange;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+#ta{
+
+    background: beige;
+    border: 5px double green;
+    place-content: Type Here!;
+
+}
+
+.qe{
+    background: black;
+    color: burlywood;
+    border: 10px double burlywood;
+    padding: 15px;
+}
+#se{
+    background: rgb(196, 32, 78);
+    color:  chartreuse;
+    border: 3px solid rgb(228, 158, 27);
+}
